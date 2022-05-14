@@ -14,12 +14,15 @@ table {
   margin-right: center;
   margin-left: center;
   margin: 0 auto;
+  box-shadow: 7px 7px 15px #000;
+  margin-top: 50px;
 }
 
 td {
-  background-color: BurlyWood;
-  height: 75px;
-  width: 75px;
+  background-color: #fff;
+  height: 85px;
+  width: 85px;
+  box-shadow: 7px 7px 15px #000;
 }
 
 .container{
@@ -59,4 +62,51 @@ td {
 
 .shoes {
   z-index: 1
+}
+
+.mole {
+  content: url('./whack-a-mole/mole.PNG');
+  width: 85px;
+  height: 85px;
+ 
+}
+
+.displayScore {
+  background-color: #fff;
+  color: rgb(92, 68, 52);
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 30px;
+  margin: auto;
+  box-shadow: 5px 5px 10px #000;
+  text-shadow: 1px 1px 2px rgba(216, 125, 6, 0.573);
+  letter-spacing: 1px;
+}
+
+#restartButton {
+  display: flex;
+  box-shadow: 5px 5px 10px #000;
+  text-shadow: 1px 1px 2px rgba(216, 125, 6, 0.573);
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: rgb(92, 68, 52);
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#restartButton:hover {
+  background-color:  rgba(56, 54, 54, 0.768);
+  box-shadow: 5px 5px 10px rgb(96, 70, 45);
+  text-shadow: 1px 1px 2px rgba(184, 181, 176, 0.573);
+  color: #fff;
+  font-size: 24px;
+  transition: .8s;
 }
