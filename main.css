@@ -1,6 +1,8 @@
+
+/* General rules CSS */
 body {
 	font-family: 'Rye', cursive;
-	background-color: LightPink;
+	background-color: rgba(169, 206, 214, 0.987);
 }
 
 h1 { 
@@ -10,21 +12,9 @@ h1 {
 	text-align: center;
 }
 
-table {
-  margin-right: center;
-  margin-left: center;
-  margin: 0 auto;
-  box-shadow: 7px 7px 15px #000;
-  margin-top: 50px;
-}
 
-td {
-  background-color: #fff;
-  height: 85px;
-  width: 85px;
-  box-shadow: 7px 7px 15px #000;
-}
 
+/* Inflate-Unicorn CSS */
 .container{
     text-align: center;
 }
@@ -36,6 +26,7 @@ td {
     margin: 5px;
 }
 
+/* Dress-the-Clown CSS */
 .dress-a-parent {
   display: block;
   margin-left: auto;
@@ -63,6 +54,24 @@ td {
 .shoes {
   z-index: 1
 }
+
+
+/* wack mole CSS */
+table {
+  margin-right: center;
+  margin-left: center;
+  margin: 0 auto;
+  box-shadow: 7px 7px 15px #000;
+  margin-top: 50px;
+}
+
+td {
+  background-color: #fff;
+  height: 85px;
+  width: 85px;
+  box-shadow: 7px 7px 15px #000;
+}
+
 
 .mole {
   content: url('./whack-a-mole/mole.PNG');
