@@ -5,7 +5,7 @@
 console.log("Dress The Clown!")
 
 //?/ Images Declaration >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// setup all as 0.png
+// set all as 0.png
 let imgHead = document.querySelector("#imgHead");
 imgHead.setAttribute('src', './images/head0.png');
 

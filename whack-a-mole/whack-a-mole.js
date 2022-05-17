@@ -92,4 +92,3 @@ let countDownTimerId = setInterval(countDownTimer, 1000)
 
 
 
-//* A way to show a mole in the chosen cell.

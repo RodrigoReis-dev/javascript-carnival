@@ -1,5 +1,5 @@
 
-/* General rules CSS */
+/* General rules CSS ---------------------- */
 body {
 	font-family: 'Rye', cursive;
 	background-color: rgba(169, 206, 214, 0.987);
@@ -14,7 +14,7 @@ h1 {
 
 
 
-/* Inflate-Unicorn CSS */
+/* Inflate-Unicorn CSS ----------------- */
 .container{
     text-align: center;
 }
@@ -26,7 +26,7 @@ h1 {
     margin: 5px;
 }
 
-/* Dress-the-Clown CSS */
+/* Dress-the-Clown CSS --------------- */
 .dress-a-parent {
   display: block;
   margin-left: auto;
@@ -56,13 +56,13 @@ h1 {
 }
 
 
-/* wack mole CSS */
+/* wack mole CSS --------------------- */
 table {
   margin-right: center;
   margin-left: center;
   margin: 0 auto;
   box-shadow: 7px 7px 15px #000;
-  margin-top: 50px;
+
 }
 
 td {
@@ -70,6 +70,12 @@ td {
   height: 85px;
   width: 85px;
   box-shadow: 7px 7px 15px #000;
+}
+
+.audio  {
+  display: flex;
+  margin: auto;
+  padding: 30px;
 }
 
 
